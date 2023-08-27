@@ -77,3 +77,10 @@ Please do not remove this section, it helps us a lot to have this information av
 
 Template: scala-sbt
     
+
+## Assumptions
+
+- Implementation of shopping cart is for one user
+- When adding the existing product to the shopping cart, it will override the currently stored product
+- Method `addProducts` was added because I was not sure from description if providing only `addProduct`
+  will statisfy the requirements. I'm aware that the method `addProducts` is not atomic.
